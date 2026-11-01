@@ -1,8 +1,6 @@
 pull_request_rules:
-  - name: probe action runs
+  - name: automatic merge
     conditions:
-      - -closed
+      - -draft
     actions:
-      label:
-        add:
-          - mergify-acted
+      merge:
