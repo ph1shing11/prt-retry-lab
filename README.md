@@ -1,3 +1,4 @@
 # prt-retry-lab
 
-Owned lab repository. Measures whether Mergify CI Insights Auto-Retry re-runs a human-gated `pull_request_target` run after the head moved. Benign markers only.
+Authorized security-research lab (Mergify HackerOne program), research-owned accounts only.
+Victim profile: GitHub ruleset-recipes "PRs & conventional commits" + Mergify as ruleset bypass actor (exempt).
