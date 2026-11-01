@@ -1,6 +1,8 @@
 pull_request_rules:
-  - name: automatic merge
+  - name: inert marker rule, never matches
     conditions:
-      - -draft
+      - base=branch-that-does-not-exist
     actions:
-      merge:
+      label:
+        add:
+          - mergify-noop
